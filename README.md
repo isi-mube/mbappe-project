@@ -48,6 +48,6 @@ v1/v2 comparision:
   <img src="https://i.ibb.co/4MWRKCs/226477449-8d283183-59e7-4352-b190-18b88a88d889.png"/>
 </p>
 
-## Furhter improvments
-* Add new datasets.
-* Upgrade README.
+## Future development...
+* Incorporate additional datasets to improve the model.
+* Enhance the README file to provide more comprehensive and visual documentation.
