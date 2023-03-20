@@ -27,7 +27,7 @@ After reading the [documentation](https://www.kaggle.com/datasets/ekrembayar/fif
 
 `v2` (20/03/2023)
 * We decide to not `import math`; our matematical operations come from `numpy` and we don't want unnecesary code.
-* For this final version, we will only import `ElasticNet` for our Linear Regression model. In [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) code it can be seen the difference of results between `Linear Regression`, `Lasso`, `Ridge` and `ElasticNet`
+* For this final version, we will only import `ElasticNet` for our Linear Regression model. Go to [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) code to see all results (`Linear Regression`, `Lasso`, `Ridge` and `ElasticNet`).
 * We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with `v1` `hits` outliers issue.
 
 ## Results and Discussion
