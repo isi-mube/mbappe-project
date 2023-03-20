@@ -42,7 +42,7 @@ v1/v2 comparision:
 * MSE decreased by 0.0290, from 0.2985 to 0.2695, suggesting improved model performance.
 * MAE decreased by 0.0235, from 0.4291 to 0.4056, meaning the updated model has fewer errors in its predictions.
 
-![image](https://user-images.githubusercontent.com/90038586/224920887-ec4049db-7961-4d83-a2e6-025d6f3ab5ee.png)
+![image](https://user-images.githubusercontent.com/90038586/226477449-8d283183-59e7-4352-b190-18b88a88d889.png)
 
 
 ## Furhter improvments
