@@ -45,7 +45,7 @@ v1/v2 comparision:
 * MAE decreased by 0.0235, from 0.4291 to 0.4056, meaning the updated model has fewer errors in its predictions.
 
 <p align="center">
-  <img src="https://i.ibb.co/4MWRKCs/226477449-8d283183-59e7-4352-b190-18b88a88d889.png" />
+  <img src="https://i.ibb.co/4MWRKCs/226477449-8d283183-59e7-4352-b190-18b88a88d889.png"/>
 </p>
 
 ## Furhter improvments
