@@ -1,5 +1,5 @@
 # MBAPPÉ Project
-1. [CODE v2](https://github.com/isi-mube/iron-labs/blob/main/project-mbappe/project-mbapp%C3%A9.ipynb)
+1. [v2 (current)](https://github.com/isi-mube/iron-labs/blob/main/project-mbappe/project-mbapp%C3%A9.ipynb)
 2. [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe)
 3. [Original code](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall)
 
