@@ -1,5 +1,7 @@
 # MBAPPÉ Project
-[Click me!](https://github.com/isi-mube/iron-labs/blob/main/project-mbappe/project-mbapp%C3%A9.ipynb)
+[CODE v2](https://github.com/isi-mube/iron-labs/blob/main/project-mbappe/project-mbapp%C3%A9.ipynb)
+[v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe)
+[Original Project](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall)
 
 ## About the Project
 The objective of this **project** is to identify young soccer players who posses the potential to become **the next Kylian Mbappé**. The [original](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall) project was completed in 5 days in collaboration with my fellow Ironhack classmates, [Nati](https://github.com/natnaelfe) & [Hugo](https://github.com/HugoIronhack).
@@ -14,7 +16,7 @@ After reading the [documentation](https://www.kaggle.com/datasets/ekrembayar/fif
 3. Through **Exploratory Data Analysis** we will identify the features that contribute to this prediction.
 
 ## Changes
-v1 (16/20/2023)
+`v1` (16/20/2023)
 * **Libraries:** This time, we use `os` to be proficent with other ways of opening the data. Also, they were re-organized for readibility.
 * **Functions:** The following functions were added `data_info`, `clean_columns`, `check_null_cols`, `check_nan_cols` & `is_significant` to improve our workflow.
 * All the work has been documented, explaining everystep and avoiding redudancy
