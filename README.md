@@ -26,9 +26,9 @@ After reading the [documentation](https://www.kaggle.com/datasets/ekrembayar/fif
 * **Rounding after normalization** in this case, we did not round our numericals.
 
 `v2` (20/03/2023)
-* We decide to not `import math`; our matematical operations come from `numpy`.
+* We decide to not `import math`; our matematical operations come from `numpy` and we don't want unnecesary code.
 * For this final version, we will use `ElasticNet` for our Linear Regression model. If you want LINK
-* We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with specific the `hits` outliers.
+* We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with `v1` `hits` outliers issue.
 
 ## Results and Discussion
 R2 =  0.9927
