@@ -4,7 +4,7 @@
 3. [Original code](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall)
 
 ## About the Project
-<p align="justify">The objective of this **project** is to identify young soccer players who posses the potential to become **the next Kylian Mbappé**. The [original](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall) project was completed in 5 days in collaboration with my fellow Ironhack classmates, [Nati](https://github.com/natnaelfe) & [Hugo](https://github.com/HugoIronhack).</p>
+The objective of this **project** is to identify young soccer players who posses the potential to become **the next Kylian Mbappé**. The [original](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall) project was completed in 5 days in collaboration with my fellow Ironhack classmates, [Nati](https://github.com/natnaelfe) & [Hugo](https://github.com/HugoIronhack).
 
 This repository is designed to improve my knowledge, redifining the Linear Regression Model, data cleaning processes and functions.
 
@@ -71,7 +71,7 @@ Through this final version, we expanded our knowledge on regression methods and 
 
 ## Future development...
 * Incorporate additional datasets to improve the model.
-* Enhance the README file to provide more comprehensive and visual documentation.
+* Enhance the README file to provide more comprehensive and visual documentation. Also, to justify all text.
 
 ## BONUS
 Entropy happens. We have a glitch in our code if you're visualizing it on GitHub.
