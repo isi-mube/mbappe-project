@@ -1,5 +1,7 @@
 # MBAPPÉ Project
-[Click me!](https://github.com/isi-mube/iron-labs/blob/main/project-mbappe/project-mbapp%C3%A9.ipynb)
+1. [v2 (current)](https://github.com/isi-mube/mbappe-project/blob/main/notebook/project-mbapp%C3%A9.ipynb)
+2. [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe)
+3. [Original code](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall)
 
 ## About the Project
 The objective of this **project** is to identify young soccer players who posses the potential to become **the next Kylian Mbappé**. The [original](https://github.com/isi-mube/data_mid_bootcamp_project_FIFA_MoneyBall) project was completed in 5 days in collaboration with my fellow Ironhack classmates, [Nati](https://github.com/natnaelfe) & [Hugo](https://github.com/HugoIronhack).
@@ -14,7 +16,7 @@ After reading the [documentation](https://www.kaggle.com/datasets/ekrembayar/fif
 3. Through **Exploratory Data Analysis** we will identify the features that contribute to this prediction.
 
 ## Changes
-v1 (16/20/2023)
+`v1` (16/20/2023)
 * **Libraries:** This time, we use `os` to be proficent with other ways of opening the data. Also, they were re-organized for readibility.
 * **Functions:** The following functions were added `data_info`, `clean_columns`, `check_null_cols`, `check_nan_cols` & `is_significant` to improve our workflow.
 * All the work has been documented, explaining everystep and avoiding redudancy
@@ -24,27 +26,48 @@ v1 (16/20/2023)
 * **Rounding after normalization** in this case, we did not round our numericals.
 
 `v2` (20/03/2023)
-* We decide to not `import math`, our matematical operations come from `numpy`.
-* For this final version, we will use `ElasticNet` for our Linear Regression model. If you want LINK
-* We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with specific hits outliers.
+* **Libraries** We decide to not `import math`; our matematical operations come from `numpy` and we don't want unnecesary code.
+* **Functions** Erased some of the extra-functions to keep it nice and simple.
+* **Features:** We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with `v1` `hits` outliers issue. Total features in v2; `22`.
+* **Plots:** Have been improved.
+* **Linear Regression:** For this final version, we will only import `ElasticNet` for our Linear Regression model. Go to [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) code to see all previous results with `Linear Regression`, `Lasso`, `Ridge` and `ElasticNet`.
 
-## Results and Discussion
-R2 =  0.9927
-RMSE =  0.5191
-The value of the metric MSE is  0.2695
-MAE =  0.4056
+## Results & Discussion
+R2 =  0.9933
+RMSE =  0.5205
+The value of the metric MSE is  0.2709
+MAE =  0.4092
 
-The **choice** of using **ElasticNet** over Linear Regression was not strictly required and initially happened by **mistake**. As a result, our updated model produced slightly more realistic outcomes compared to the previous Linear Regression model, which returned perfect predictions (R2 of 1.0).
+The **choice** of using **ElasticNet** over Linear Regression was not strictly required and initially happened by **mistake**. As a result, our updated model produced slightly more realistic outcomes compared to the previous [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) Linear Regression model, which returned perfect predictions (R2 of 1.0).
 
-v1/v2 comparision:
-* R2 increased from 0.9908 to 0.9927, a 0.0019 improvement. The updated model now explains 99.27% of the variance in the target variable, up from 99.08%.
-* RMSE decreased by 0.0273, from 0.5464 to 0.5191, indicating better performance in the updated model.
-* MSE decreased by 0.0290, from 0.2985 to 0.2695, suggesting improved model performance.
-* MAE decreased by 0.0235, from 0.4291 to 0.4056, meaning the updated model has fewer errors in its predictions.
+`v1/v2` ** detailed comparision**:
+* R2 increased from 0.9908 to 0.9933, a 0.0025 improvement.
+* RMSE decreased by 0.0259, from 0.5464 to 0.5205.
+* MSE decreased by 0.0276, from 0.2985 to 0.2709.
+* MAE decreased by 0.0199, from 0.4291 to 0.4092.
 
-![image](https://user-images.githubusercontent.com/90038586/226477449-8d283183-59e7-4352-b190-18b88a88d889.png)
+Through this final version, we expanded our knowledge on regression methods and improved our code documentation and visualization.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90038586/226585162-6dd8e0dc-aa72-4867-a348-76316aca3553.png"/>
+</p>
 
-## Furhter improvments
-* Add new datasets.
-* Upgrade README.
+## Tools
+**Enviornment**
+* VSCode and Jupyter Notebook
+
+**Libraries**
+* **File management:** os
+* **Data manipulation:** pandas
+* **Numerical operations:** numpy
+* **Visualization:** matplotlib, seaborn
+* **Settings:** warnings
+* **Machine Learning:** scikit-learn
+* **Preprocessing:** LabelEncoder, MinMaxScaler
+* **Model election:** train test split
+* **Regression model:** ElasticNet
+* **Metrics evaluation:** r2 score, mean squared error, mean absolute error
+
+## Future development...
+* Incorporate additional datasets to improve the model.
+* Enhance the README file to provide more comprehensive and visual documentation.
