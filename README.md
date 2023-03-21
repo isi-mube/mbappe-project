@@ -34,10 +34,10 @@ After reading the [documentation](https://www.kaggle.com/datasets/ekrembayar/fif
 * **Size:** Compared to v1, we reduced the amount of lines (from 8.186 to 4808). The final python script size is `1.54 MB`
 
 ## Results & Discussion
-R2 =  0.9933
-RMSE =  0.5205
-The value of the metric MSE is  0.2709
-MAE =  0.4092
+* R2 =  0.9933
+* RMSE =  0.5205
+* The value of the metric MSE is  0.2709
+* MAE =  0.4092
 
 The **choice** of using **ElasticNet** over Linear Regression was not strictly required and initially happened by **mistake**. As a result, our updated model produced slightly more realistic outcomes compared to the previous [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) Linear Regression model, which returned perfect predictions (R2 of 1.0).
 
