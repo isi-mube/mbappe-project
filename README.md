@@ -31,6 +31,7 @@ After reading the [documentation](https://www.kaggle.com/datasets/ekrembayar/fif
 * **Features:** We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with `v1` `hits` outliers issue. Total features in v2; `22`.
 * **Plots:** Have been improved.
 * **Linear Regression:** For this final version, we will only import `ElasticNet` for our Linear Regression model. Go to [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) code to see all previous results with `Linear Regression`, `Lasso`, `Ridge` and `ElasticNet`.
+* **Size:** Compared to v1, we reduced the amount of lines (from 8.186 to 4808). The final python script size is `1.54 MB`
 
 ## Results & Discussion
 R2 =  0.9933
@@ -71,3 +72,11 @@ Through this final version, we expanded our knowledge on regression methods and 
 ## Future development...
 * Incorporate additional datasets to improve the model.
 * Enhance the README file to provide more comprehensive and visual documentation.
+
+## BONUS
+Entropy happens. We have a glitch in our code if you're visualizing it on GitHub.
+
+![image](https://user-images.githubusercontent.com/90038586/226587768-239a6605-ac15-4ae0-93e2-3d8bf2d7d82b.png)
+
+For readability, please download the notebook and open the code in Jupyter/VSCode.
+
