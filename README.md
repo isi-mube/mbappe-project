@@ -47,7 +47,7 @@ The **choice** of using **ElasticNet** over Linear Regression was not strictly r
 * MSE decreased by 0.0276, from 0.2985 to 0.2709.
 * MAE decreased by 0.0199, from 0.4291 to 0.4092.
 
-Through this final version, we expanded our knowledge on regression methods and improved our code documentation and visualization.
+Throughout this final version, we expanded our knowledge on regression methods, focused on basics (libraries, functions...) and improved our code documentation and visualization.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90038586/226585162-6dd8e0dc-aa72-4867-a348-76316aca3553.png"/>
