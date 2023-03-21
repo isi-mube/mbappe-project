@@ -36,9 +36,9 @@ RMSE =  0.5191
 The value of the metric MSE is  0.2695
 MAE =  0.4056
 
-The **choice** of using **ElasticNet** over Linear Regression was not strictly required and initially happened by **mistake**. As a result, our updated model produced slightly more realistic outcomes compared to the previous Linear Regression model, which returned perfect predictions (R2 of 1.0).
+The **choice** of using **ElasticNet** over Linear Regression was not strictly required and initially happened by **mistake**. As a result, our updated model produced slightly more realistic outcomes compared to the previous [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) Linear Regression model, which returned perfect predictions (R2 of 1.0).
 
-v1/v2 comparision:
+`v1/v2` ** detailed comparision**:
 * R2 increased from 0.9908 to 0.9927, a 0.0019 improvement. The updated model now explains 99.27% of the variance in the target variable, up from 99.08%.
 * RMSE decreased by 0.0273, from 0.5464 to 0.5191, indicating better performance in the updated model.
 * MSE decreased by 0.0290, from 0.2985 to 0.2695, suggesting improved model performance.
@@ -47,6 +47,22 @@ v1/v2 comparision:
 <p align="center">
   <img src="https://i.ibb.co/4MWRKCs/226477449-8d283183-59e7-4352-b190-18b88a88d889.png"/>
 </p>
+
+## Tools
+**Enviornment**
+* VSCode and Jupyter Notebook
+
+**Libraries**
+* **File management:** os
+* **Data manipulation:** pandas
+* **Numerical operations:** numpy
+* **Visualization:** matplotlib, seaborn
+* **Settings:** warnings
+* **Machine Learning:** scikit-learn
+* **Preprocessing:** LabelEncoder, MinMaxScaler
+* **Model election:** train test split
+* **Regression model:** ElasticNet
+* **Metrics evaluation:** r2 score, mean squared error, mean absolute error
 
 ## Future development...
 * Incorporate additional datasets to improve the model.
