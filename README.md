@@ -26,26 +26,30 @@ After reading the [documentation](https://www.kaggle.com/datasets/ekrembayar/fif
 * **Rounding after normalization** in this case, we did not round our numericals.
 
 `v2` (20/03/2023)
-* We decide to not `import math`; our matematical operations come from `numpy` and we don't want unnecesary code.
-* For this final version, we will only import `ElasticNet` for our Linear Regression model. Go to [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) code to see all results (`Linear Regression`, `Lasso`, `Ridge` and `ElasticNet`).
-* We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with `v1` `hits` outliers issue.
+* **Libraries** We decide to not `import math`; our matematical operations come from `numpy` and we don't want unnecesary code.
+* **Functions** Erased some of the extra-functions to keep it nice and simple.
+* **Features:** We will drop `hits` even if it's a numerical, since it represents the popularity of a player used or watched in FIFA21 community. With that, we also deal with `v1` `hits` outliers issue. Total features in v2; `22`.
+* **Plots:** Have been improved.
+* **Linear Regression:** For this final version, we will only import `ElasticNet` for our Linear Regression model. Go to [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) code to see all previous results with `Linear Regression`, `Lasso`, `Ridge` and `ElasticNet`.
 
-## Results and Discussion
-R2 =  0.9927
-RMSE =  0.5191
-The value of the metric MSE is  0.2695
-MAE =  0.4056
+## Results & Discussion
+R2 =  0.9933
+RMSE =  0.5205
+The value of the metric MSE is  0.2709
+MAE =  0.4092
 
 The **choice** of using **ElasticNet** over Linear Regression was not strictly required and initially happened by **mistake**. As a result, our updated model produced slightly more realistic outcomes compared to the previous [v1](https://github.com/isi-mube/iron-labs/tree/main/project-mbappe) Linear Regression model, which returned perfect predictions (R2 of 1.0).
 
 `v1/v2` ** detailed comparision**:
-* R2 increased from 0.9908 to 0.9927, a 0.0019 improvement. The updated model now explains 99.27% of the variance in the target variable, up from 99.08%.
-* RMSE decreased by 0.0273, from 0.5464 to 0.5191, indicating better performance in the updated model.
-* MSE decreased by 0.0290, from 0.2985 to 0.2695, suggesting improved model performance.
-* MAE decreased by 0.0235, from 0.4291 to 0.4056, meaning the updated model has fewer errors in its predictions.
+* R2 increased from 0.9908 to 0.9933, a 0.0025 improvement.
+* RMSE decreased by 0.0259, from 0.5464 to 0.5205.
+* MSE decreased by 0.0276, from 0.2985 to 0.2709.
+* MAE decreased by 0.0199, from 0.4291 to 0.4092.
+
+Through this final version, we expanded our knowledge on regression methods and improved our code documentation and visualization.
 
 <p align="center">
-  <img src="https://i.ibb.co/4MWRKCs/226477449-8d283183-59e7-4352-b190-18b88a88d889.png"/>
+  <img src="https://user-images.githubusercontent.com/90038586/226585162-6dd8e0dc-aa72-4867-a348-76316aca3553.png"/>
 </p>
 
 ## Tools
